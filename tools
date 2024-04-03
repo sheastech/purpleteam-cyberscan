@@ -1,0 +1,42 @@
+---
+
+What Are Common Tools Used for Cybersecurity Pentesting and Audits?
+Google Gemini AI Generated Photo - Shea BennettThe information below is intended only for Ethical hackers conducting operations for lawful purposes, training, or education and should not be used for any illegal purposes!
+Implementing Cloud technologies is not as simple as standing up a Container, EC2 instance or Kubernetes deployment. You also have to keep in mind that the environment has to be secured. If you do not scan and check your own environment, you will eventually deal with a cybersecurity attack, malware, virus or ransomeware event because basically, you were being arrogant and foolish. Optionally, there are times when people do not know.
+Common Security Baselines for the US are as follows:
+DISA STIGS: https://public.cyber.mil/stigs/srg-stig-tools/
+CIS BENCHMARKS: https://www.cisecurity.org/cis-benchmarks
+These benchmark tools set a bare minimum recommended security configurations for servers, containers and application/web servers (e.g. Node.JS, IIS, etc). CIS Benchmarks are the most widely used. DISA STIGS can be very challenging to deal with and using the STIG Viewer can be complicated. The US Federal Government and DOD generally uses DISA STIGS so if you want government level hardening on an OS, Database or Application/Web server. This is the standard you could use.
+BurpSuite: https://portswigger.net/burp
+Droopescan: https://github.com/SamJoan/droopescan 
+NMAP: https://nmap.org/download.html
+PACU (AWS): https://github.com/RhinoSecurityLabs/pacu
+CloudMapper (AWS): https://github.com/duo-labs/cloudmapper
+Scout Suite (Multi-Cloud): https://github.com/nccgroup/ScoutSuite
+Shodan: https://www.shodan.io/
+Censys (Limited Free Tier): https://censys.com/search-pricing/
+CentralOps (Domain Dossier/AnalyzePath): https://centralops.net/co/
+Tenable Nessus is used in Enterprises and Too Expensive. Not Free.
+
+---
+
+The Operating System you choose is actually important. I will always advocate for using Linux for these operations over a Windows OS for speed and accuracy and flexibility. You have to download and configure too much crap on a Windows OS to make it work properly for scans. Here are the operating systems that will make life easier so that you can do your work and then write your report.
+Beginners: 
+ParrotOS: https://www.parrotsec.org/
+Kali Linux: https://www.kali.org/
+
+Experienced and Want Customization:
+3. BlackArch: https://www.blackarch.org
+Web Testing Framework (Do NOT Install on a Production Environment):
+https://github.com/SamuraiWTF/samuraiwtf
+These images can run in VirtualBox, VMware Workstation or if your super cheap QEMU (I personally do not like QEMU because the VirtManager UI is just ugly), but if you want to do it; hey, it's on you.
+Oracle VirtualBox: https://www.virtualbox.org/wiki/Downloads
+VMware (Linux): https://www.vmware.com/go/getworkstation-linux
+QEMU: https://www.qemu.org/download/#linux
+VirtManager (GUI for QEMU): https://virt-manager.org/
+
+---
+
+When your done with all of the fancy stuff and having fun. Now you have to type up a report of everything. Well, you do not need Microsoft Office! OnlyOffice is not only supported in Linux, but it has collaboration features like Google Docs that can be used offline and on your local machine. Google Docs is fine, but it's a pain to deal with when editing sometimes. Also, export to Microsoft Office formats many times gets all jacked up exporting from Google Docs. So, if you are 100% on Linux for your laptop OS, then you can use OnlyOffice and you won't miss a thing. The UI is good also.
+Screenshot of OnlyOffice 8.0 on Ubuntu 22.04 LTS - Shea BennettOnlyOffice Desktop: https://www.onlyoffice.com/desktop.aspx (Docs, Spreadsheets, Presentations and PDF Forms Editor)
+OnlyOffice Suite: https://www.onlyoffice.com/office-suite.aspx
